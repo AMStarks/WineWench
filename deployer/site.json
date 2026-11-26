@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0",
+  "name": "Wine Wench · Alana Kaye",
+  "tokens": {
+    "primary": "#AF0004",
+    "background": "#EAD3DC",
+    "text": "#AF0004"
+  },
+  "presentation": {
+    "layout": "full-width",
+    "bodyFont": "humanist",
+    "headingFont": "humanist",
+    "buttonRadius": 12
+  },
+  "pages": [
+    {
+      "id": "wine-wench-home",
+      "title": "Home",
+      "slug": "home",
+      "nodes": [
+        {
+          "id": "hero-art",
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/home-body.webp",
+          "alt": "Alana on the café terrace. For the LOVE of WINE. Wine Wench Approved."
+        }
+      ]
+    },
+    {
+      "id": "wine-wench-person",
+      "title": "The person",
+      "slug": "person",
+      "nodes": [
+        {
+          "id": "person-portrait",
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/person-body.webp",
+          "alt": "Alana Kaye in turquoise, with the original pink artwork, introduction and Wine Wench seal."
+        }
+      ]
+    },
+    {
+      "id": "wine-wench-work",
+      "title": "The work",
+      "slug": "work",
+      "nodes": [
+        {
+          "id": "garden-scene",
+          "type": "container",
+          "children": [
+            {
+              "id": "partnerships",
+              "type": "button",
+              "text": "Partnerships",
+              "url": "#contact"
+            },
+            {
+              "id": "events",
+              "type": "button",
+              "text": "Events",
+              "url": "#contact"
+            }
+          ],
+          "style": {
+            "backgroundImage": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/garden-background.webp",
+            "minHeight": 660,
+            "focalX": 55,
+            "focalY": 50,
+            "padding": 72,
+            "gap": 32,
+            "direction": "column"
+          }
+        },
+        {
+          "id": "contact",
+          "type": "container",
+          "children": [
+            {
+              "id": "contact-heading",
+              "type": "heading",
+              "text": "Contact Alana Kaye",
+              "level": 2
+            },
+            {
+              "id": "contact-copy",
+              "type": "text",
+              "text": "Contact details will appear here when supplied."
+            }
+          ],
+          "style": {
+            "padding": 32,
+            "gap": 12,
+            "background": "#AF0004",
+            "color": "#FFFFFF"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wine-wench-editorial",
+      "title": "Editorial",
+      "slug": "editorial",
+      "nodes": [
+        {
+          "id": "editorial-stories",
+          "type": "container",
+          "children": [
+            {
+              "id": "chardy",
+              "type": "container",
+              "children": [
+                {
+                  "id": "chardy-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/chardy.webp",
+                  "alt": "Food and wine on a table"
+                },
+                {
+                  "id": "chardy-category",
+                  "type": "text",
+                  "text": "Wine & Food"
+                },
+                {
+                  "id": "chardy-title",
+                  "type": "heading",
+                  "text": "Sip & Eat: Chardy & Fish Curry",
+                  "level": 2
+                },
+                {
+                  "id": "chardy-credit",
+                  "type": "text",
+                  "text": "By Alana Kaye\nJune 20, 2021"
+                },
+                {
+                  "id": "chardy-excerpt",
+                  "type": "text",
+                  "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\""
+                }
+              ],
+              "style": {
+                "gap": 12
+              }
+            },
+            {
+              "id": "mudgee",
+              "type": "container",
+              "children": [
+                {
+                  "id": "mudgee-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/mudgee.webp",
+                  "alt": "An open country road"
+                },
+                {
+                  "id": "mudgee-category",
+                  "type": "text",
+                  "text": "Travel & Adventures"
+                },
+                {
+                  "id": "mudgee-title",
+                  "type": "heading",
+                  "text": "Weekender's Guide to Mudgee",
+                  "level": 2
+                },
+                {
+                  "id": "mudgee-credit",
+                  "type": "text",
+                  "text": "By Alana Kaye\nJune 20, 2021"
+                },
+                {
+                  "id": "mudgee-excerpt",
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                }
+              ],
+              "style": {
+                "gap": 12
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "background": "#EAD3DC",
+            "color": "#AF0004",
+            "padding": 48,
+            "gap": 48
+          }
+        }
+      ]
+    }
+  ]
+}
