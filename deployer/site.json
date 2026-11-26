@@ -12,6 +12,27 @@
     "headingFont": "humanist",
     "buttonRadius": 12
   },
+  "footer": {
+    "text": "Alana Kaye · The Wine Wench",
+    "links": [
+      {
+        "text": "Instagram",
+        "url": "https://www.instagram.com/the_wine_wench/"
+      },
+      {
+        "text": "Facebook",
+        "url": "https://www.facebook.com/the.wine.wench.aus/"
+      },
+      {
+        "text": "Newsletter",
+        "url": "https://www.thewinewench.com.au/#comp-jt4912ss"
+      },
+      {
+        "text": "Email Alana",
+        "url": "mailto:alana@thewinewench.com.au"
+      }
+    ]
+  },
   "pages": [
     {
       "id": "wine-wench-home",
@@ -21,8 +42,238 @@
         {
           "id": "hero-art",
           "type": "image",
-          "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/home-body.webp",
-          "alt": "Alana on the café terrace. For the LOVE of WINE. Wine Wench Approved."
+          "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/home-hero.webp",
+          "alt": "Alana Kaye on a café terrace. For the LOVE of WINE."
+        },
+        {
+          "id": "intro",
+          "type": "container",
+          "children": [
+            {
+              "id": "home-copy",
+              "type": "text",
+              "text": "Australian wines, the people behind the bottle, and something delicious to eat alongside."
+            },
+            {
+              "id": "latest",
+              "type": "heading",
+              "text": "Latest from Alana",
+              "level": 2
+            }
+          ],
+          "style": {
+            "padding": 32
+          }
+        },
+        {
+          "id": "stories-0",
+          "type": "container",
+          "children": [
+            {
+              "id": "mulled-wine-in-minutes",
+              "type": "container",
+              "children": [
+                {
+                  "id": "mulled-wine-in-minutes-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/mulled-wine-in-minutes.webp",
+                  "alt": "Mulled Wine In Minutes!"
+                },
+                {
+                  "id": "mulled-wine-in-minutes-category",
+                  "type": "text",
+                  "text": "Articles · Reviews · Tips & tricks"
+                },
+                {
+                  "id": "mulled-wine-in-minutes-title",
+                  "type": "heading",
+                  "text": "Mulled Wine In Minutes!",
+                  "level": 2
+                },
+                {
+                  "id": "mulled-wine-in-minutes-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2023-10-05"
+                },
+                {
+                  "id": "mulled-wine-in-minutes-intro",
+                  "type": "text",
+                  "text": "A cold snap in the Highlands sends Alana back to the firepit. She tries Mulled Beverages’ spice bags two ways: a saucepan for a few glasses, or a mug in the microwave for one. This was a paid collaboration."
+                },
+                {
+                  "id": "mulled-wine-in-minutes-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/mulled-wine-in-minutes"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "partnership-with-byrne-vineyards",
+              "type": "container",
+              "children": [
+                {
+                  "id": "partnership-with-byrne-vineyards-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/partnership-with-byrne-vineyards.webp",
+                  "alt": "Partnership with Byrne Vineyards"
+                },
+                {
+                  "id": "partnership-with-byrne-vineyards-category",
+                  "type": "text",
+                  "text": "Articles · Reviews · SA"
+                },
+                {
+                  "id": "partnership-with-byrne-vineyards-title",
+                  "type": "heading",
+                  "text": "Partnership with Byrne Vineyards",
+                  "level": 2
+                },
+                {
+                  "id": "partnership-with-byrne-vineyards-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2023-08-23"
+                },
+                {
+                  "id": "partnership-with-byrne-vineyards-intro",
+                  "type": "text",
+                  "text": "Two very different Riverland bottles share a Flavabom label. Alana tastes the 2022 Field White, then puts the Fresh Pick Shiraz on the table with slow-braised beans and sourdough. The original partnership includes the recipe and its 2023 offer."
+                },
+                {
+                  "id": "partnership-with-byrne-vineyards-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/partnership-with-byrne-vineyards"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-2",
+          "type": "container",
+          "children": [
+            {
+              "id": "wine-chats-tony-allen",
+              "type": "container",
+              "children": [
+                {
+                  "id": "wine-chats-tony-allen-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/wine-chats-tony-allen.webp",
+                  "alt": "Wine Chats: Tony Allen"
+                },
+                {
+                  "id": "wine-chats-tony-allen-category",
+                  "type": "text",
+                  "text": "Articles · Interviews · NSW"
+                },
+                {
+                  "id": "wine-chats-tony-allen-title",
+                  "type": "heading",
+                  "text": "Wine Chats: Tony Allen",
+                  "level": 2
+                },
+                {
+                  "id": "wine-chats-tony-allen-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2022-09-01"
+                },
+                {
+                  "id": "wine-chats-tony-allen-intro",
+                  "type": "text",
+                  "text": "What does sustainability actually look like in a winery? Rewild winemaker Tony Allen talks about making wine in the Southern Murray Darling, the work behind the label and the bottles that keep him curious."
+                },
+                {
+                  "id": "wine-chats-tony-allen-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/wine-chats-tony-allen"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "i-was-asked-to-consult-on-a-film",
+              "type": "container",
+              "children": [
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/i-was-asked-to-consult-on-a-film.webp",
+                  "alt": "I was asked to consult on a film..."
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-category",
+                  "type": "text",
+                  "text": "Articles · News & trends · WA"
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-title",
+                  "type": "heading",
+                  "text": "I was asked to consult on a film...",
+                  "level": 2
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-09-08"
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-intro",
+                  "type": "text",
+                  "text": "A restaurant scene needed a convincing exchange between a diner and a sommelier. With a menu and a screenplay to work from, Alana had to choose a wine that made sense both on the table and in the dialogue."
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/i-was-asked-to-consult-on-a-film"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "newsletter",
+          "type": "button",
+          "text": "Join the Wine Wench Wine Up",
+          "url": "https://www.thewinewench.com.au/#comp-jt4912ss"
         }
       ]
     },
@@ -32,10 +283,70 @@
       "slug": "person",
       "nodes": [
         {
-          "id": "person-portrait",
+          "id": "portrait",
           "type": "image",
-          "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/person-body.webp",
-          "alt": "Alana Kaye in turquoise, with the original pink artwork, introduction and Wine Wench seal."
+          "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/person-hero.webp",
+          "alt": "Alana Kaye in turquoise with the Wine Wench seal."
+        },
+        {
+          "id": "biography",
+          "type": "container",
+          "children": [
+            {
+              "id": "person-title",
+              "type": "heading",
+              "text": "Meet Alana",
+              "level": 1
+            },
+            {
+              "id": "bio-0",
+              "type": "text",
+              "text": "Alana Kaye came to wine writing by way of theatre, food and books. The Wine Wench grew out of a wish to talk about the people who make wine and the pleasure of drinking it, in language everyone can join in with."
+            },
+            {
+              "id": "bio-1",
+              "type": "text",
+              "text": "Based in the Southern Highlands of New South Wales, Alana champions Australian producers. A McLaren Vale grenache, Adelaide Hills pinot grigio, Margaret River rosé or Tasmanian sparkling can all find a place at her table. Rosé rarely has to wait for an invitation."
+            }
+          ],
+          "style": {
+            "gap": 16,
+            "padding": 40
+          }
+        },
+        {
+          "id": "thirsty-hungry",
+          "type": "container",
+          "children": [
+            {
+              "id": "series-title",
+              "type": "heading",
+              "text": "Thirsty Hungry",
+              "level": 2
+            },
+            {
+              "id": "series-intro",
+              "type": "text",
+              "text": "Thirsty Hungry is Alana’s food-and-wine video series for nights in. Each episode starts with a bottle and something to eat, whether that means cooking dinner or picking up a favourite local takeaway."
+            },
+            {
+              "id": "series-video",
+              "type": "video",
+              "url": "https://video.wixstatic.com/video/7cc75b_a880dc4350374531ab651e2d9719f7f8/720p/mp4/file.mp4",
+              "text": "Thirsty Hungry",
+              "alt": "Alana’s food and wine pairing series"
+            },
+            {
+              "id": "series-link",
+              "type": "button",
+              "text": "Visit the series",
+              "url": "https://www.thewinewench.com.au/copy-of-about"
+            }
+          ],
+          "style": {
+            "gap": 16,
+            "padding": 40
+          }
         }
       ]
     },
@@ -49,49 +360,236 @@
           "type": "container",
           "children": [
             {
-              "id": "partnerships",
+              "id": "work-services",
               "type": "button",
               "text": "Partnerships",
-              "url": "#contact"
+              "url": "#partnerships"
             },
             {
-              "id": "events",
+              "id": "work-events",
               "type": "button",
               "text": "Events",
-              "url": "#contact"
+              "url": "#events"
             }
           ],
           "style": {
-            "backgroundImage": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/garden-background.webp",
+            "backgroundImage": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/garden-background.webp",
             "minHeight": 660,
-            "focalX": 55,
-            "focalY": 50,
             "padding": 72,
-            "gap": 32,
-            "direction": "column"
+            "gap": 32
           }
         },
         {
-          "id": "contact",
+          "id": "partnerships",
           "type": "container",
           "children": [
             {
-              "id": "contact-heading",
+              "id": "services-title",
               "type": "heading",
-              "text": "Contact Alana Kaye",
-              "level": 2
+              "text": "Partnerships & collaborations",
+              "level": 1
             },
             {
-              "id": "contact-copy",
-              "type": "text",
-              "text": "Contact details will appear here when supplied."
+              "id": "service-0",
+              "type": "container",
+              "children": [
+                {
+                  "id": "service-name-0",
+                  "type": "heading",
+                  "text": "Content creation",
+                  "level": 2
+                },
+                {
+                  "id": "service-desc-0",
+                  "type": "text",
+                  "text": "Winemaker conversations, tasting features, photography and reels for a winery or food business. Alana especially enjoys telling the stories of small, family-run and sustainability-minded producers. Ask for the current rates card."
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "service-1",
+              "type": "container",
+              "children": [
+                {
+                  "id": "service-name-1",
+                  "type": "heading",
+                  "text": "Social media management",
+                  "level": 2
+                },
+                {
+                  "id": "service-desc-1",
+                  "type": "text",
+                  "text": "A content plan for your own Facebook and Instagram accounts, from the first planning conversation to photography, posting and community management."
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "service-2",
+              "type": "container",
+              "children": [
+                {
+                  "id": "service-name-2",
+                  "type": "heading",
+                  "text": "Wine writing",
+                  "level": 2
+                },
+                {
+                  "id": "service-desc-2",
+                  "type": "text",
+                  "text": "Tasting notes for a new vintage, bottle labels, website and search copy, newsletters, customer emails, SMS campaigns, print articles and interviews."
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "rates",
+              "type": "button",
+              "text": "Request a rates card",
+              "url": "mailto:alana@thewinewench.com.au"
             }
           ],
           "style": {
-            "padding": 32,
-            "gap": 12,
-            "background": "#AF0004",
-            "color": "#FFFFFF"
+            "padding": 40,
+            "gap": 24
+          }
+        },
+        {
+          "id": "packages",
+          "type": "container",
+          "children": [
+            {
+              "id": "packages-title",
+              "type": "heading",
+              "text": "Social media packages",
+              "level": 2
+            },
+            {
+              "id": "package-0",
+              "type": "container",
+              "children": [
+                {
+                  "id": "package-name-0",
+                  "type": "heading",
+                  "text": "Rosé · $399 / month",
+                  "level": 2
+                },
+                {
+                  "id": "includes-0",
+                  "type": "text",
+                  "text": "2 Instagram posts, 2 Facebook posts and 3 stories weekly."
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "package-1",
+              "type": "container",
+              "children": [
+                {
+                  "id": "package-name-1",
+                  "type": "heading",
+                  "text": "Pinot Noir · $499 / month",
+                  "level": 2
+                },
+                {
+                  "id": "includes-1",
+                  "type": "text",
+                  "text": "3 Instagram posts, 3 Facebook posts and 5 stories weekly. Monthly reels included: 1."
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "package-2",
+              "type": "container",
+              "children": [
+                {
+                  "id": "package-name-2",
+                  "type": "heading",
+                  "text": "Champagne · $599 / month",
+                  "level": 2
+                },
+                {
+                  "id": "includes-2",
+                  "type": "text",
+                  "text": "5 Instagram posts, 5 Facebook posts and 8 stories weekly. Monthly reels included: 2."
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "setup",
+              "type": "text",
+              "text": "The published packages include community management and the option to run advertising with a separate ad budget. A one-off $399 setup covers a half-day content shoot, editing and a library the client keeps. Custom plans, influencer campaigns, newsletters and blog writing are available by enquiry. Ask Alana to confirm current pricing."
+            }
+          ],
+          "style": {
+            "padding": 40,
+            "gap": 24
+          }
+        },
+        {
+          "id": "events",
+          "type": "container",
+          "children": [
+            {
+              "id": "events-title",
+              "type": "heading",
+              "text": "Events & at-home tastings",
+              "level": 2
+            },
+            {
+              "id": "tastings",
+              "type": "text",
+              "text": "Planning a Southern Highlands stay? Alana’s at-home tasting concept brings regional wines to your accommodation. The original listing marks the service as coming soon. Send your preferred date and group details to ask about availability and pricing."
+            },
+            {
+              "id": "enquiry",
+              "type": "button",
+              "text": "Tasting enquiry",
+              "url": "https://www.thewinewench.com.au/at-home-tastings#comp-l0ejj03y"
+            },
+            {
+              "id": "bookings-title",
+              "type": "heading",
+              "text": "Tours & bookings",
+              "level": 2
+            },
+            {
+              "id": "availability",
+              "type": "text",
+              "text": "The published calendar currently lists no services. Enquire about future dates."
+            },
+            {
+              "id": "bookings",
+              "type": "button",
+              "text": "Check the booking calendar",
+              "url": "https://www.thewinewench.com.au/book-online"
+            },
+            {
+              "id": "tours",
+              "type": "button",
+              "text": "Visit the tours page",
+              "url": "https://www.thewinewench.com.au/tours"
+            }
+          ],
+          "style": {
+            "padding": 40,
+            "gap": 16
           }
         }
       ]
@@ -102,88 +600,1854 @@
       "slug": "editorial",
       "nodes": [
         {
-          "id": "editorial-stories",
+          "id": "archive-title",
           "type": "container",
           "children": [
             {
-              "id": "chardy",
+              "id": "journal-title",
+              "type": "heading",
+              "text": "Editorial",
+              "level": 1
+            },
+            {
+              "id": "contents-link",
+              "type": "button",
+              "text": "Browse by category",
+              "url": "#categories"
+            }
+          ],
+          "style": {
+            "padding": 32,
+            "gap": 12
+          }
+        },
+        {
+          "id": "stories-0",
+          "type": "container",
+          "children": [
+            {
+              "id": "mulled-wine-in-minutes",
               "type": "container",
               "children": [
                 {
-                  "id": "chardy-photo",
+                  "id": "mulled-wine-in-minutes-photo",
                   "type": "image",
-                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/chardy.webp",
-                  "alt": "Food and wine on a table"
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/mulled-wine-in-minutes.webp",
+                  "alt": "Mulled Wine In Minutes!"
                 },
                 {
-                  "id": "chardy-category",
+                  "id": "mulled-wine-in-minutes-category",
                   "type": "text",
-                  "text": "Wine & Food"
+                  "text": "Articles · Reviews · Tips & tricks"
                 },
                 {
-                  "id": "chardy-title",
+                  "id": "mulled-wine-in-minutes-title",
                   "type": "heading",
-                  "text": "Sip & Eat: Chardy & Fish Curry",
+                  "text": "Mulled Wine In Minutes!",
                   "level": 2
                 },
                 {
-                  "id": "chardy-credit",
+                  "id": "mulled-wine-in-minutes-credit",
                   "type": "text",
-                  "text": "By Alana Kaye\nJune 20, 2021"
+                  "text": "Alana Kaye · 2023-10-05"
                 },
                 {
-                  "id": "chardy-excerpt",
+                  "id": "mulled-wine-in-minutes-intro",
                   "type": "text",
-                  "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\""
+                  "text": "A cold snap in the Highlands sends Alana back to the firepit. She tries Mulled Beverages’ spice bags two ways: a saucepan for a few glasses, or a mug in the microwave for one. This was a paid collaboration."
+                },
+                {
+                  "id": "mulled-wine-in-minutes-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/mulled-wine-in-minutes"
                 }
               ],
               "style": {
-                "gap": 12
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
               }
             },
             {
-              "id": "mudgee",
+              "id": "partnership-with-byrne-vineyards",
               "type": "container",
               "children": [
                 {
-                  "id": "mudgee-photo",
+                  "id": "partnership-with-byrne-vineyards-photo",
                   "type": "image",
-                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/589589eb3c8eb5c7743d6e6170cfbad77e9792b2/assets/mudgee.webp",
-                  "alt": "An open country road"
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/partnership-with-byrne-vineyards.webp",
+                  "alt": "Partnership with Byrne Vineyards"
                 },
                 {
-                  "id": "mudgee-category",
+                  "id": "partnership-with-byrne-vineyards-category",
                   "type": "text",
-                  "text": "Travel & Adventures"
+                  "text": "Articles · Reviews · SA"
                 },
                 {
-                  "id": "mudgee-title",
+                  "id": "partnership-with-byrne-vineyards-title",
                   "type": "heading",
-                  "text": "Weekender's Guide to Mudgee",
+                  "text": "Partnership with Byrne Vineyards",
                   "level": 2
                 },
                 {
-                  "id": "mudgee-credit",
+                  "id": "partnership-with-byrne-vineyards-credit",
                   "type": "text",
-                  "text": "By Alana Kaye\nJune 20, 2021"
+                  "text": "Alana Kaye · 2023-08-23"
                 },
                 {
-                  "id": "mudgee-excerpt",
+                  "id": "partnership-with-byrne-vineyards-intro",
                   "type": "text",
-                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                  "text": "Two very different Riverland bottles share a Flavabom label. Alana tastes the 2022 Field White, then puts the Fresh Pick Shiraz on the table with slow-braised beans and sourdough. The original partnership includes the recipe and its 2023 offer."
+                },
+                {
+                  "id": "partnership-with-byrne-vineyards-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/partnership-with-byrne-vineyards"
                 }
               ],
               "style": {
-                "gap": 12
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
               }
             }
           ],
           "style": {
             "direction": "row",
-            "background": "#EAD3DC",
-            "color": "#AF0004",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-2",
+          "type": "container",
+          "children": [
+            {
+              "id": "wine-chats-tony-allen",
+              "type": "container",
+              "children": [
+                {
+                  "id": "wine-chats-tony-allen-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/wine-chats-tony-allen.webp",
+                  "alt": "Wine Chats: Tony Allen"
+                },
+                {
+                  "id": "wine-chats-tony-allen-category",
+                  "type": "text",
+                  "text": "Articles · Interviews · NSW"
+                },
+                {
+                  "id": "wine-chats-tony-allen-title",
+                  "type": "heading",
+                  "text": "Wine Chats: Tony Allen",
+                  "level": 2
+                },
+                {
+                  "id": "wine-chats-tony-allen-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2022-09-01"
+                },
+                {
+                  "id": "wine-chats-tony-allen-intro",
+                  "type": "text",
+                  "text": "What does sustainability actually look like in a winery? Rewild winemaker Tony Allen talks about making wine in the Southern Murray Darling, the work behind the label and the bottles that keep him curious."
+                },
+                {
+                  "id": "wine-chats-tony-allen-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/wine-chats-tony-allen"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "i-was-asked-to-consult-on-a-film",
+              "type": "container",
+              "children": [
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/i-was-asked-to-consult-on-a-film.webp",
+                  "alt": "I was asked to consult on a film..."
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-category",
+                  "type": "text",
+                  "text": "Articles · News & trends · WA"
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-title",
+                  "type": "heading",
+                  "text": "I was asked to consult on a film...",
+                  "level": 2
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-09-08"
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-intro",
+                  "type": "text",
+                  "text": "A restaurant scene needed a convincing exchange between a diner and a sommelier. With a menu and a screenplay to work from, Alana had to choose a wine that made sense both on the table and in the dialogue."
+                },
+                {
+                  "id": "i-was-asked-to-consult-on-a-film-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/i-was-asked-to-consult-on-a-film"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-4",
+          "type": "container",
+          "children": [
+            {
+              "id": "cocktails-with-bormioli",
+              "type": "container",
+              "children": [
+                {
+                  "id": "cocktails-with-bormioli-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/cocktails-with-bormioli.webp",
+                  "alt": "Cocktails with Bormioli"
+                },
+                {
+                  "id": "cocktails-with-bormioli-category",
+                  "type": "text",
+                  "text": "News & trends · Recipes · Tips & tricks"
+                },
+                {
+                  "id": "cocktails-with-bormioli-title",
+                  "type": "heading",
+                  "text": "Cocktails with Bormioli",
+                  "level": 2
+                },
+                {
+                  "id": "cocktails-with-bormioli-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-08-19"
+                },
+                {
+                  "id": "cocktails-with-bormioli-intro",
+                  "type": "text",
+                  "text": "A gift of Luigi Bormioli glassware inspired two drinks: the Old Cuban Fizzball and a Limonberry Spritz. The second starts well before cocktail hour, with homemade limoncello."
+                },
+                {
+                  "id": "cocktails-with-bormioli-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/cocktails-with-bormioli"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "sip-eat-chardy-fish-curry",
+              "type": "container",
+              "children": [
+                {
+                  "id": "sip-eat-chardy-fish-curry-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/sip-eat-chardy-fish-curry.webp",
+                  "alt": "Sip & Eat: Chardy & Fish Curry"
+                },
+                {
+                  "id": "sip-eat-chardy-fish-curry-category",
+                  "type": "text",
+                  "text": "Recipes · Reviews · Tips & tricks · VIC"
+                },
+                {
+                  "id": "sip-eat-chardy-fish-curry-title",
+                  "type": "heading",
+                  "text": "Sip & Eat: Chardy & Fish Curry",
+                  "level": 2
+                },
+                {
+                  "id": "sip-eat-chardy-fish-curry-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-06-01"
+                },
+                {
+                  "id": "sip-eat-chardy-fish-curry-intro",
+                  "type": "text",
+                  "text": "A fish curry and a Victorian chardonnay are the starting point for this Sip & Eat dinner. Alana puts the recipe, the bottle and the music together so you can try the pairing at home."
+                },
+                {
+                  "id": "sip-eat-chardy-fish-curry-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/sip-eat-chardy-fish-curry"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-6",
+          "type": "container",
+          "children": [
+            {
+              "id": "weekenders-guide-to-mudgee",
+              "type": "container",
+              "children": [
+                {
+                  "id": "weekenders-guide-to-mudgee-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/weekenders-guide-to-mudgee.webp",
+                  "alt": "Weekender's Guide to Mudgee"
+                },
+                {
+                  "id": "weekenders-guide-to-mudgee-category",
+                  "type": "text",
+                  "text": "NSW · Reviews · Tips & tricks"
+                },
+                {
+                  "id": "weekenders-guide-to-mudgee-title",
+                  "type": "heading",
+                  "text": "Weekender's Guide to Mudgee",
+                  "level": 2
+                },
+                {
+                  "id": "weekenders-guide-to-mudgee-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-05-22"
+                },
+                {
+                  "id": "weekenders-guide-to-mudgee-intro",
+                  "type": "text",
+                  "text": "The road from Sydney takes in Rylstone, De Beaurepaire and Baker Williams before a night at Roth’s. The weekend continues through Lowe, Cellar by Gilbert, Di Lusso, Moothi and Logan, with tasting picks along the way."
+                },
+                {
+                  "id": "weekenders-guide-to-mudgee-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/weekenders-guide-to-mudgee"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "sip-eat-sangiovese-moussaka",
+              "type": "container",
+              "children": [
+                {
+                  "id": "sip-eat-sangiovese-moussaka-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/sip-eat-sangiovese-moussaka.webp",
+                  "alt": "Sip & Eat: Sangiovese & \"Moussaka\""
+                },
+                {
+                  "id": "sip-eat-sangiovese-moussaka-category",
+                  "type": "text",
+                  "text": "News & trends · Recipes"
+                },
+                {
+                  "id": "sip-eat-sangiovese-moussaka-title",
+                  "type": "heading",
+                  "text": "Sip & Eat: Sangiovese & \"Moussaka\"",
+                  "level": 2
+                },
+                {
+                  "id": "sip-eat-sangiovese-moussaka-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-05-17"
+                },
+                {
+                  "id": "sip-eat-sangiovese-moussaka-intro",
+                  "type": "text",
+                  "text": "A bottle of sangiovese meets a home-cooked take on moussaka. The original kitchen notes lay out the ingredients and method, followed by a tasting and a soundtrack for dinner."
+                },
+                {
+                  "id": "sip-eat-sangiovese-moussaka-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/sip-eat-sangiovese-moussaka"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-8",
+          "type": "container",
+          "children": [
+            {
+              "id": "malbec-world-day",
+              "type": "container",
+              "children": [
+                {
+                  "id": "malbec-world-day-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/malbec-world-day.webp",
+                  "alt": "Excuse me postman, can I have my Mal-bec please?"
+                },
+                {
+                  "id": "malbec-world-day-category",
+                  "type": "text",
+                  "text": "News & trends"
+                },
+                {
+                  "id": "malbec-world-day-title",
+                  "type": "heading",
+                  "text": "Excuse me postman, can I have my Mal-bec please?",
+                  "level": 2
+                },
+                {
+                  "id": "malbec-world-day-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-04-17"
+                },
+                {
+                  "id": "malbec-world-day-intro",
+                  "type": "text",
+                  "text": "April 17 puts malbec in the spotlight. This introduction follows the grape from its French names and origins to the glass, with ideas for what to eat and listen to alongside it."
+                },
+                {
+                  "id": "malbec-world-day-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/malbec-world-day"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "rosenvale-barossa-grenache",
+              "type": "container",
+              "children": [
+                {
+                  "id": "rosenvale-barossa-grenache-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/rosenvale-barossa-grenache.webp",
+                  "alt": "Rosenvale Barossa Grenache"
+                },
+                {
+                  "id": "rosenvale-barossa-grenache-category",
+                  "type": "text",
+                  "text": "SA"
+                },
+                {
+                  "id": "rosenvale-barossa-grenache-title",
+                  "type": "heading",
+                  "text": "Rosenvale Barossa Grenache",
+                  "level": 2
+                },
+                {
+                  "id": "rosenvale-barossa-grenache-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-03-15"
+                },
+                {
+                  "id": "rosenvale-barossa-grenache-intro",
+                  "type": "text",
+                  "text": "A Barossa grenache puts Rosenvale’s vineyards at the centre of this tasting. Alana looks at the people behind the bottle before choosing its food, soundtrack and occasion."
+                },
+                {
+                  "id": "rosenvale-barossa-grenache-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/rosenvale-barossa-grenache"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-10",
+          "type": "container",
+          "children": [
+            {
+              "id": "bloody-good-wine",
+              "type": "container",
+              "children": [
+                {
+                  "id": "bloody-good-wine-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/bloody-good-wine.webp",
+                  "alt": "Bloody Good Wine"
+                },
+                {
+                  "id": "bloody-good-wine-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "bloody-good-wine-title",
+                  "type": "heading",
+                  "text": "Bloody Good Wine",
+                  "level": 2
+                },
+                {
+                  "id": "bloody-good-wine-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-01-20"
+                },
+                {
+                  "id": "bloody-good-wine-intro",
+                  "type": "text",
+                  "text": "Rosé, pinot and bubbles share the tasting table in this look at Tipsy Aunt Flo. Alana matches each wine to food, music and an occasion, and explores the producer’s support for menstrual equity."
+                },
+                {
+                  "id": "bloody-good-wine-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/bloody-good-wine"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "wine-chats-david-lowe",
+              "type": "container",
+              "children": [
+                {
+                  "id": "wine-chats-david-lowe-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/wine-chats-david-lowe.webp",
+                  "alt": "Wine Chats: David Lowe"
+                },
+                {
+                  "id": "wine-chats-david-lowe-category",
+                  "type": "text",
+                  "text": "Interviews · NSW"
+                },
+                {
+                  "id": "wine-chats-david-lowe-title",
+                  "type": "heading",
+                  "text": "Wine Chats: David Lowe",
+                  "level": 2
+                },
+                {
+                  "id": "wine-chats-david-lowe-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-01-17"
+                },
+                {
+                  "id": "wine-chats-david-lowe-intro",
+                  "type": "text",
+                  "text": "At his Mudgee cellar door, winemaker David Lowe talks about the bottles that first caught his attention, what still surprises him and the wine he would take to a desert island."
+                },
+                {
+                  "id": "wine-chats-david-lowe-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/wine-chats-david-lowe"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-12",
+          "type": "container",
+          "children": [
+            {
+              "id": "fucking-good-port",
+              "type": "container",
+              "children": [
+                {
+                  "id": "fucking-good-port-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/fucking-good-port.webp",
+                  "alt": "F*cking Good Port"
+                },
+                {
+                  "id": "fucking-good-port-category",
+                  "type": "text",
+                  "text": "QLD"
+                },
+                {
+                  "id": "fucking-good-port-title",
+                  "type": "heading",
+                  "text": "F*cking Good Port",
+                  "level": 2
+                },
+                {
+                  "id": "fucking-good-port-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2021-01-15"
+                },
+                {
+                  "id": "fucking-good-port-intro",
+                  "type": "text",
+                  "text": "After trying Riversands’ bubbles, Alana returns to the Queensland producer for a fortified wine with a particularly memorable name. Her tasting includes a suggested meal, mood and playlist pairing."
+                },
+                {
+                  "id": "fucking-good-port-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/fucking-good-port"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "wine-for-a-cause",
+              "type": "container",
+              "children": [
+                {
+                  "id": "wine-for-a-cause-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/wine-for-a-cause.webp",
+                  "alt": "Wine for a Cause"
+                },
+                {
+                  "id": "wine-for-a-cause-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "wine-for-a-cause-title",
+                  "type": "heading",
+                  "text": "Wine for a Cause",
+                  "level": 2
+                },
+                {
+                  "id": "wine-for-a-cause-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-12-07"
+                },
+                {
+                  "id": "wine-for-a-cause-intro",
+                  "type": "text",
+                  "text": "What can a bottle purchase support? Alana follows the projects behind Tipsy Aunt Flo, Little Giant, Tread Softly, The Hidden Sea and Little Ripples, from wombat welfare to clean water."
+                },
+                {
+                  "id": "wine-for-a-cause-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/wine-for-a-cause"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-14",
+          "type": "container",
+          "children": [
+            {
+              "id": "why-do-we-say-cheers",
+              "type": "container",
+              "children": [
+                {
+                  "id": "why-do-we-say-cheers-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/why-do-we-say-cheers.webp",
+                  "alt": "Why do we say 'Cheers'?"
+                },
+                {
+                  "id": "why-do-we-say-cheers-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "why-do-we-say-cheers-title",
+                  "type": "heading",
+                  "text": "Why do we say 'Cheers'?",
+                  "level": 2
+                },
+                {
+                  "id": "why-do-we-say-cheers-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-11-27"
+                },
+                {
+                  "id": "why-do-we-say-cheers-intro",
+                  "type": "text",
+                  "text": "From santé and salud to kanpai and skål, a shared toast has plenty of local expressions. Alana follows the words and customs behind raising a glass."
+                },
+                {
+                  "id": "why-do-we-say-cheers-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/why-do-we-say-cheers"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "riversands-wines",
+              "type": "container",
+              "children": [
+                {
+                  "id": "riversands-wines-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/riversands-wines.webp",
+                  "alt": "Riversands Wines"
+                },
+                {
+                  "id": "riversands-wines-category",
+                  "type": "text",
+                  "text": "QLD"
+                },
+                {
+                  "id": "riversands-wines-title",
+                  "type": "heading",
+                  "text": "Riversands Wines",
+                  "level": 2
+                },
+                {
+                  "id": "riversands-wines-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-11-19"
+                },
+                {
+                  "id": "riversands-wines-intro",
+                  "type": "text",
+                  "text": "Two sparkling wines introduce Riversands, a Queensland winery whose labels tell stories about the district. Alana opens the gifted bottles and pairs each with a dish, a song and a reason to celebrate."
+                },
+                {
+                  "id": "riversands-wines-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/riversands-wines"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-16",
+          "type": "container",
+          "children": [
+            {
+              "id": "to-decant-or-not-to-decant",
+              "type": "container",
+              "children": [
+                {
+                  "id": "to-decant-or-not-to-decant-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/to-decant-or-not-to-decant.webp",
+                  "alt": "To decant, or not to decant?"
+                },
+                {
+                  "id": "to-decant-or-not-to-decant-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "to-decant-or-not-to-decant-title",
+                  "type": "heading",
+                  "text": "To decant, or not to decant?",
+                  "level": 2
+                },
+                {
+                  "id": "to-decant-or-not-to-decant-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-11-11"
+                },
+                {
+                  "id": "to-decant-or-not-to-decant-intro",
+                  "type": "text",
+                  "text": "A decanter can do two jobs: leave sediment behind and give a wine more contact with air. This guide explains when each matters and how to choose a vessel for the bottle you have."
+                },
+                {
+                  "id": "to-decant-or-not-to-decant-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/to-decant-or-not-to-decant"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "southern-highlands-top-6",
+              "type": "container",
+              "children": [
+                {
+                  "id": "southern-highlands-top-6-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/southern-highlands-top-6.webp",
+                  "alt": "Southern Highlands Top 6"
+                },
+                {
+                  "id": "southern-highlands-top-6-category",
+                  "type": "text",
+                  "text": "NSW"
+                },
+                {
+                  "id": "southern-highlands-top-6-title",
+                  "type": "heading",
+                  "text": "Southern Highlands Top 6",
+                  "level": 2
+                },
+                {
+                  "id": "southern-highlands-top-6-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-11-01"
+                },
+                {
+                  "id": "southern-highlands-top-6-intro",
+                  "type": "text",
+                  "text": "A cellar-door trail close to home: Artemis, Mount Ashby, Tertini, Eling Forest, Cuttaway Hill and Cherry Tree Hill. Alana shares the stops and bottles that shaped her original Southern Highlands shortlist."
+                },
+                {
+                  "id": "southern-highlands-top-6-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/southern-highlands-top-6"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-18",
+          "type": "container",
+          "children": [
+            {
+              "id": "nothing-says-celebration-like-bubbles",
+              "type": "container",
+              "children": [
+                {
+                  "id": "nothing-says-celebration-like-bubbles-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/nothing-says-celebration-like-bubbles.webp",
+                  "alt": "Nothing says Celebration like Bubbles!"
+                },
+                {
+                  "id": "nothing-says-celebration-like-bubbles-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "nothing-says-celebration-like-bubbles-title",
+                  "type": "heading",
+                  "text": "Nothing says Celebration like Bubbles!",
+                  "level": 2
+                },
+                {
+                  "id": "nothing-says-celebration-like-bubbles-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-10-23"
+                },
+                {
+                  "id": "nothing-says-celebration-like-bubbles-intro",
+                  "type": "text",
+                  "text": "Champagne, crémant, cava and prosecco all fizz, but they get there by different routes. Alana follows the traditional, transfer and tank methods from fermentation to finished bottle."
+                },
+                {
+                  "id": "nothing-says-celebration-like-bubbles-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/nothing-says-celebration-like-bubbles"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "wine-chats-amanda-yallop",
+              "type": "container",
+              "children": [
+                {
+                  "id": "wine-chats-amanda-yallop-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/wine-chats-amanda-yallop.webp",
+                  "alt": "Wine Chats: Amanda Yallop"
+                },
+                {
+                  "id": "wine-chats-amanda-yallop-category",
+                  "type": "text",
+                  "text": "Interviews"
+                },
+                {
+                  "id": "wine-chats-amanda-yallop-title",
+                  "type": "heading",
+                  "text": "Wine Chats: Amanda Yallop",
+                  "level": 2
+                },
+                {
+                  "id": "wine-chats-amanda-yallop-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-10-20"
+                },
+                {
+                  "id": "wine-chats-amanda-yallop-intro",
+                  "type": "text",
+                  "text": "Amanda Yallop, group wine director at Fink, talks about restaurant wine lists, the pleasure of unexpected matches, the bottles open in her kitchen and where she would travel for a glass."
+                },
+                {
+                  "id": "wine-chats-amanda-yallop-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/wine-chats-amanda-yallop"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-20",
+          "type": "container",
+          "children": [
+            {
+              "id": "favourite-pinks-for-spring",
+              "type": "container",
+              "children": [
+                {
+                  "id": "favourite-pinks-for-spring-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/favourite-pinks-for-spring.webp",
+                  "alt": "Favourite Pinks for Spring"
+                },
+                {
+                  "id": "favourite-pinks-for-spring-category",
+                  "type": "text",
+                  "text": "SA · WA"
+                },
+                {
+                  "id": "favourite-pinks-for-spring-title",
+                  "type": "heading",
+                  "text": "Favourite Pinks for Spring",
+                  "level": 2
+                },
+                {
+                  "id": "favourite-pinks-for-spring-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-10-17"
+                },
+                {
+                  "id": "favourite-pinks-for-spring-intro",
+                  "type": "text",
+                  "text": "Cockfighter’s Ghost, Audrey Wilkinson, Miles From Nowhere, Artemis, Bird in Hand and AIX make up this spring rosé selection, spanning local favourites and a French pour."
+                },
+                {
+                  "id": "favourite-pinks-for-spring-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/favourite-pinks-for-spring"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "the-rose-revolution",
+              "type": "container",
+              "children": [
+                {
+                  "id": "the-rose-revolution-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/the-rose-revolution.webp",
+                  "alt": "It's A Revolution..."
+                },
+                {
+                  "id": "the-rose-revolution-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "the-rose-revolution-title",
+                  "type": "heading",
+                  "text": "It's A Revolution...",
+                  "level": 2
+                },
+                {
+                  "id": "the-rose-revolution-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-10-08"
+                },
+                {
+                  "id": "the-rose-revolution-intro",
+                  "type": "text",
+                  "text": "The colour of a rosé is only one clue to what is in the glass. This early Wine Wench feature explores the style behind one of Alana’s favourite pours."
+                },
+                {
+                  "id": "the-rose-revolution-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/the-rosé-revolution"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-22",
+          "type": "container",
+          "children": [
+            {
+              "id": "wine-shows-what",
+              "type": "container",
+              "children": [
+                {
+                  "id": "wine-shows-what-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/wine-shows-what.webp",
+                  "alt": "Wine Shows - What?"
+                },
+                {
+                  "id": "wine-shows-what-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "wine-shows-what-title",
+                  "type": "heading",
+                  "text": "Wine Shows - What?",
+                  "level": 2
+                },
+                {
+                  "id": "wine-shows-what-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-09-30"
+                },
+                {
+                  "id": "wine-shows-what-intro",
+                  "type": "text",
+                  "text": "Behind the medals are blind flights, judging panels and a lot of tasting. This guide follows the show process through to trophies, with a look at the Jimmy Watson award."
+                },
+                {
+                  "id": "wine-shows-what-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/wine-shows-what"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "understanding-medals",
+              "type": "container",
+              "children": [
+                {
+                  "id": "understanding-medals-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/understanding-medals.webp",
+                  "alt": "Understanding Medals"
+                },
+                {
+                  "id": "understanding-medals-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "understanding-medals-title",
+                  "type": "heading",
+                  "text": "Understanding Medals",
+                  "level": 2
+                },
+                {
+                  "id": "understanding-medals-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-09-23"
+                },
+                {
+                  "id": "understanding-medals-intro",
+                  "type": "text",
+                  "text": "Gold, silver, bronze, double gold and trophies can share the same crowded bottle label. Alana unpacks the scoring bands and what the different awards tell a shopper."
+                },
+                {
+                  "id": "understanding-medals-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/understanding-medals"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "stories-24",
+          "type": "container",
+          "children": [
+            {
+              "id": "food-pairing-like-a-pro",
+              "type": "container",
+              "children": [
+                {
+                  "id": "food-pairing-like-a-pro-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/food-pairing-like-a-pro.webp",
+                  "alt": "Food Pairing like a Pro"
+                },
+                {
+                  "id": "food-pairing-like-a-pro-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "food-pairing-like-a-pro-title",
+                  "type": "heading",
+                  "text": "Food Pairing like a Pro",
+                  "level": 2
+                },
+                {
+                  "id": "food-pairing-like-a-pro-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-09-18"
+                },
+                {
+                  "id": "food-pairing-like-a-pro-intro",
+                  "type": "text",
+                  "text": "Taste the dish and the wine together. Sweetness, salt, acidity and bitterness change the way each comes across, and matching similar flavours gives a different result from choosing a contrast."
+                },
+                {
+                  "id": "food-pairing-like-a-pro-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/food-pairing-like-a-pro"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            },
+            {
+              "id": "wine-tasting-like-a-pro",
+              "type": "container",
+              "children": [
+                {
+                  "id": "wine-tasting-like-a-pro-photo",
+                  "type": "image",
+                  "url": "https://raw.githubusercontent.com/AMStarks/WineWench/279afc6f312c60ecb9ecc4352306cb6015690a80/assets/journal/wine-tasting-like-a-pro.webp",
+                  "alt": "Wine Tasting like a Pro"
+                },
+                {
+                  "id": "wine-tasting-like-a-pro-category",
+                  "type": "text",
+                  "text": "Articles"
+                },
+                {
+                  "id": "wine-tasting-like-a-pro-title",
+                  "type": "heading",
+                  "text": "Wine Tasting like a Pro",
+                  "level": 2
+                },
+                {
+                  "id": "wine-tasting-like-a-pro-credit",
+                  "type": "text",
+                  "text": "Alana Kaye · 2020-09-15"
+                },
+                {
+                  "id": "wine-tasting-like-a-pro-intro",
+                  "type": "text",
+                  "text": "Start with the colour, give the glass a swirl, then smell before tasting. Alana breaks the sip down into acidity, sweetness, alcohol and tannin so you can put words to what you notice."
+                },
+                {
+                  "id": "wine-tasting-like-a-pro-read",
+                  "type": "button",
+                  "text": "Read full story",
+                  "url": "https://www.thewinewench.com.au/post/wine-tasting-like-a-pro"
+                }
+              ],
+              "style": {
+                "gap": 12,
+                "padding": 20,
+                "background": "#EAD3DC",
+                "color": "#AF0004"
+              }
+            }
+          ],
+          "style": {
+            "direction": "row",
+            "padding": 32,
+            "gap": 36,
+            "background": "#EAD3DC"
+          }
+        },
+        {
+          "id": "categories",
+          "type": "container",
+          "children": [
+            {
+              "id": "category-index",
+              "type": "heading",
+              "text": "Browse by category",
+              "level": 2
+            },
+            {
+              "id": "category-0",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-0",
+                  "type": "heading",
+                  "text": "Articles",
+                  "level": 2
+                },
+                {
+                  "id": "pick-0-0",
+                  "type": "button",
+                  "text": "Mulled Wine In Minutes!",
+                  "url": "#mulled-wine-in-minutes"
+                },
+                {
+                  "id": "pick-0-1",
+                  "type": "button",
+                  "text": "Partnership with Byrne Vineyards",
+                  "url": "#partnership-with-byrne-vineyards"
+                },
+                {
+                  "id": "pick-0-2",
+                  "type": "button",
+                  "text": "Wine Chats: Tony Allen",
+                  "url": "#wine-chats-tony-allen"
+                },
+                {
+                  "id": "pick-0-3",
+                  "type": "button",
+                  "text": "I was asked to consult on a film...",
+                  "url": "#i-was-asked-to-consult-on-a-film"
+                },
+                {
+                  "id": "pick-0-10",
+                  "type": "button",
+                  "text": "Bloody Good Wine",
+                  "url": "#bloody-good-wine"
+                },
+                {
+                  "id": "pick-0-13",
+                  "type": "button",
+                  "text": "Wine for a Cause",
+                  "url": "#wine-for-a-cause"
+                },
+                {
+                  "id": "pick-0-14",
+                  "type": "button",
+                  "text": "Why do we say 'Cheers'?",
+                  "url": "#why-do-we-say-cheers"
+                },
+                {
+                  "id": "pick-0-16",
+                  "type": "button",
+                  "text": "To decant, or not to decant?",
+                  "url": "#to-decant-or-not-to-decant"
+                },
+                {
+                  "id": "pick-0-18",
+                  "type": "button",
+                  "text": "Nothing says Celebration like Bubbles!",
+                  "url": "#nothing-says-celebration-like-bubbles"
+                },
+                {
+                  "id": "pick-0-21",
+                  "type": "button",
+                  "text": "It's A Revolution...",
+                  "url": "#the-rose-revolution"
+                },
+                {
+                  "id": "pick-0-22",
+                  "type": "button",
+                  "text": "Wine Shows - What?",
+                  "url": "#wine-shows-what"
+                },
+                {
+                  "id": "pick-0-23",
+                  "type": "button",
+                  "text": "Understanding Medals",
+                  "url": "#understanding-medals"
+                },
+                {
+                  "id": "pick-0-24",
+                  "type": "button",
+                  "text": "Food Pairing like a Pro",
+                  "url": "#food-pairing-like-a-pro"
+                },
+                {
+                  "id": "pick-0-25",
+                  "type": "button",
+                  "text": "Wine Tasting like a Pro",
+                  "url": "#wine-tasting-like-a-pro"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-1",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-1",
+                  "type": "heading",
+                  "text": "Interviews",
+                  "level": 2
+                },
+                {
+                  "id": "pick-1-2",
+                  "type": "button",
+                  "text": "Wine Chats: Tony Allen",
+                  "url": "#wine-chats-tony-allen"
+                },
+                {
+                  "id": "pick-1-11",
+                  "type": "button",
+                  "text": "Wine Chats: David Lowe",
+                  "url": "#wine-chats-david-lowe"
+                },
+                {
+                  "id": "pick-1-19",
+                  "type": "button",
+                  "text": "Wine Chats: Amanda Yallop",
+                  "url": "#wine-chats-amanda-yallop"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-2",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-2",
+                  "type": "heading",
+                  "text": "NSW",
+                  "level": 2
+                },
+                {
+                  "id": "pick-2-2",
+                  "type": "button",
+                  "text": "Wine Chats: Tony Allen",
+                  "url": "#wine-chats-tony-allen"
+                },
+                {
+                  "id": "pick-2-6",
+                  "type": "button",
+                  "text": "Weekender's Guide to Mudgee",
+                  "url": "#weekenders-guide-to-mudgee"
+                },
+                {
+                  "id": "pick-2-11",
+                  "type": "button",
+                  "text": "Wine Chats: David Lowe",
+                  "url": "#wine-chats-david-lowe"
+                },
+                {
+                  "id": "pick-2-17",
+                  "type": "button",
+                  "text": "Southern Highlands Top 6",
+                  "url": "#southern-highlands-top-6"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-3",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-3",
+                  "type": "heading",
+                  "text": "News & trends",
+                  "level": 2
+                },
+                {
+                  "id": "pick-3-3",
+                  "type": "button",
+                  "text": "I was asked to consult on a film...",
+                  "url": "#i-was-asked-to-consult-on-a-film"
+                },
+                {
+                  "id": "pick-3-4",
+                  "type": "button",
+                  "text": "Cocktails with Bormioli",
+                  "url": "#cocktails-with-bormioli"
+                },
+                {
+                  "id": "pick-3-7",
+                  "type": "button",
+                  "text": "Sip & Eat: Sangiovese & \"Moussaka\"",
+                  "url": "#sip-eat-sangiovese-moussaka"
+                },
+                {
+                  "id": "pick-3-8",
+                  "type": "button",
+                  "text": "Excuse me postman, can I have my Mal-bec please?",
+                  "url": "#malbec-world-day"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-4",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-4",
+                  "type": "heading",
+                  "text": "QLD",
+                  "level": 2
+                },
+                {
+                  "id": "pick-4-12",
+                  "type": "button",
+                  "text": "F*cking Good Port",
+                  "url": "#fucking-good-port"
+                },
+                {
+                  "id": "pick-4-15",
+                  "type": "button",
+                  "text": "Riversands Wines",
+                  "url": "#riversands-wines"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-5",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-5",
+                  "type": "heading",
+                  "text": "Recipes",
+                  "level": 2
+                },
+                {
+                  "id": "pick-5-4",
+                  "type": "button",
+                  "text": "Cocktails with Bormioli",
+                  "url": "#cocktails-with-bormioli"
+                },
+                {
+                  "id": "pick-5-5",
+                  "type": "button",
+                  "text": "Sip & Eat: Chardy & Fish Curry",
+                  "url": "#sip-eat-chardy-fish-curry"
+                },
+                {
+                  "id": "pick-5-7",
+                  "type": "button",
+                  "text": "Sip & Eat: Sangiovese & \"Moussaka\"",
+                  "url": "#sip-eat-sangiovese-moussaka"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-6",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-6",
+                  "type": "heading",
+                  "text": "Reviews",
+                  "level": 2
+                },
+                {
+                  "id": "pick-6-0",
+                  "type": "button",
+                  "text": "Mulled Wine In Minutes!",
+                  "url": "#mulled-wine-in-minutes"
+                },
+                {
+                  "id": "pick-6-1",
+                  "type": "button",
+                  "text": "Partnership with Byrne Vineyards",
+                  "url": "#partnership-with-byrne-vineyards"
+                },
+                {
+                  "id": "pick-6-5",
+                  "type": "button",
+                  "text": "Sip & Eat: Chardy & Fish Curry",
+                  "url": "#sip-eat-chardy-fish-curry"
+                },
+                {
+                  "id": "pick-6-6",
+                  "type": "button",
+                  "text": "Weekender's Guide to Mudgee",
+                  "url": "#weekenders-guide-to-mudgee"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-7",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-7",
+                  "type": "heading",
+                  "text": "SA",
+                  "level": 2
+                },
+                {
+                  "id": "pick-7-1",
+                  "type": "button",
+                  "text": "Partnership with Byrne Vineyards",
+                  "url": "#partnership-with-byrne-vineyards"
+                },
+                {
+                  "id": "pick-7-9",
+                  "type": "button",
+                  "text": "Rosenvale Barossa Grenache",
+                  "url": "#rosenvale-barossa-grenache"
+                },
+                {
+                  "id": "pick-7-20",
+                  "type": "button",
+                  "text": "Favourite Pinks for Spring",
+                  "url": "#favourite-pinks-for-spring"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-8",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-8",
+                  "type": "heading",
+                  "text": "Tips & tricks",
+                  "level": 2
+                },
+                {
+                  "id": "pick-8-0",
+                  "type": "button",
+                  "text": "Mulled Wine In Minutes!",
+                  "url": "#mulled-wine-in-minutes"
+                },
+                {
+                  "id": "pick-8-4",
+                  "type": "button",
+                  "text": "Cocktails with Bormioli",
+                  "url": "#cocktails-with-bormioli"
+                },
+                {
+                  "id": "pick-8-5",
+                  "type": "button",
+                  "text": "Sip & Eat: Chardy & Fish Curry",
+                  "url": "#sip-eat-chardy-fish-curry"
+                },
+                {
+                  "id": "pick-8-6",
+                  "type": "button",
+                  "text": "Weekender's Guide to Mudgee",
+                  "url": "#weekenders-guide-to-mudgee"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-9",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-9",
+                  "type": "heading",
+                  "text": "VIC",
+                  "level": 2
+                },
+                {
+                  "id": "pick-9-5",
+                  "type": "button",
+                  "text": "Sip & Eat: Chardy & Fish Curry",
+                  "url": "#sip-eat-chardy-fish-curry"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            },
+            {
+              "id": "category-10",
+              "type": "container",
+              "children": [
+                {
+                  "id": "label-10",
+                  "type": "heading",
+                  "text": "WA",
+                  "level": 2
+                },
+                {
+                  "id": "pick-10-3",
+                  "type": "button",
+                  "text": "I was asked to consult on a film...",
+                  "url": "#i-was-asked-to-consult-on-a-film"
+                },
+                {
+                  "id": "pick-10-20",
+                  "type": "button",
+                  "text": "Favourite Pinks for Spring",
+                  "url": "#favourite-pinks-for-spring"
+                }
+              ],
+              "style": {
+                "gap": 8
+              }
+            }
+          ],
+          "style": {
+            "gap": 24,
+            "padding": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "wine-wench-contact",
+      "title": "Contact",
+      "slug": "contact",
+      "nodes": [
+        {
+          "id": "contact-info",
+          "type": "container",
+          "children": [
+            {
+              "id": "contact-title",
+              "type": "heading",
+              "text": "Contact Alana",
+              "level": 1
+            },
+            {
+              "id": "contact-intro",
+              "type": "text",
+              "text": "For collaborations, interviews, tastings or a question about a bottle, get in touch with Alana."
+            },
+            {
+              "id": "email",
+              "type": "button",
+              "text": "alana@thewinewench.com.au",
+              "url": "mailto:alana@thewinewench.com.au"
+            },
+            {
+              "id": "form",
+              "type": "button",
+              "text": "Open the contact form",
+              "url": "https://www.thewinewench.com.au/contact#comp-l0ekx094"
+            },
+            {
+              "id": "instagram",
+              "type": "button",
+              "text": "Instagram",
+              "url": "https://www.instagram.com/the_wine_wench/"
+            },
+            {
+              "id": "facebook",
+              "type": "button",
+              "text": "Facebook",
+              "url": "https://www.facebook.com/the.wine.wench.aus/"
+            },
+            {
+              "id": "newsletter",
+              "type": "button",
+              "text": "Join the Wine Wench Wine Up",
+              "url": "https://www.thewinewench.com.au/#comp-jt4912ss"
+            }
+          ],
+          "style": {
             "padding": 48,
-            "gap": 48
+            "gap": 20
           }
         }
       ]

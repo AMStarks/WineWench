@@ -84,3 +84,55 @@ dialog img{max-width:100%;max-height:33vh;object-fit:cover}
  .excerpt{max-width:none;margin:1rem 0}
  .read{font-size:1rem;width:auto;height:44px;padding:0 2rem;border-radius:.45rem}
 }
+
+/* The journal and service pages extend the styleboard’s two-column editorial layout. */
+body.scene{overflow:visible;overflow-x:clip}
+.skip{position:absolute;left:1rem;top:-8rem;z-index:5;background:white;color:var(--red);padding:.7rem}
+.skip:focus{top:1rem}
+.intro p{width:35%}
+.work-options a{display:grid;place-items:center;width:27.82cqw;height:6.6cqw;background:var(--berry);color:white;border-radius:1cqw;font:5.15cqw/.95 Shelby,cursive}
+.work-options a+a{background:var(--pink);color:#72000b}
+.paper,.spread{background:var(--paper);color:var(--red)}
+.sub .inner{padding:clamp(14rem,27vw,32rem) 12vw 8vw;min-height:65vh}
+.spread{padding:clamp(2.75rem,6vw,7rem) 8vw}
+.spread>div,.inner>*{max-width:76rem;margin-inline:auto}
+.spread:nth-of-type(even){background:#fff4e1}
+.spread h2,.paper h1,.base h2{font-weight:300;line-height:1.06;letter-spacing:-.045em;font-size:clamp(2.5rem,5.5vw,6.2rem)}
+.spread h2:not(:first-child),.inner>h2{margin-top:1.1em}
+.spread p,.inner>p,.card>p,.base p{line-height:1.65}
+.spread p,.inner>p,.base p{max-width:67ch;margin:.85rem 0}
+.action,.filters button,.original summary{display:inline-block;margin:.75rem .6rem .2rem 0;padding:.82rem 1.35rem;border:0;border-radius:.55rem;background:var(--berry);color:white;font:600 1rem/1.25 Mont,Arial,sans-serif;cursor:pointer}
+a.action:hover,.original summary:hover,.filters button:hover{background:#79020a}
+.text-link,.back,.base a:not(.action){display:inline-block;text-decoration:underline;text-underline-offset:.19em;margin:1rem .8rem 1rem 0}
+.journal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(2rem,6vw,7rem);margin:2.8rem 0}
+.card img{width:100%;aspect-ratio:1.12;object-fit:cover;display:block}
+.card .kicker,.kicker{font:clamp(1.5rem,2.65vw,3rem)/1.15 Shelby,cursive;margin:.6em 0 .2em}
+.card h2,.offers h2,.offers h3,.inner h2{font-size:clamp(1.7rem,3vw,3.2rem);font-weight:300;line-height:1.12;margin:.3em 0}
+.card a:hover:not(.action){text-decoration:underline}
+.credit,.credit time{display:inline;font:700 .95rem/1.5 Mont,Arial,sans-serif}
+.card>p:not(.kicker){margin:.75rem 0}
+.filters{display:flex;flex-wrap:wrap;align-items:end;gap:1rem;margin-top:2rem}
+.filters label{display:grid;gap:.4rem;font-weight:600}
+.filters input,.filters select{font:inherit;min-height:44px;max-width:100%;padding:.6rem .8rem;border:1px solid #a34c60;border-radius:.45rem;background:#fff6eb;color:#65060e}
+.filters button{margin:0}
+.offers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3vw;margin:2.5rem 0}
+.offers article{border-top:2px solid var(--pink);padding-top:1.3rem}
+.base{background:var(--red);color:white;padding:clamp(2.5rem,6vw,6rem) 8vw;display:flex;gap:2rem;justify-content:space-between;align-items:center}
+.base h2{font-size:clamp(2.1rem,4vw,4rem)}
+.base .action{background:var(--pink);color:#590009}
+.base>div:last-child{display:grid}
+.base>div:last-child a{margin:.3rem 0}
+.reader .cover{max-height:65vh;width:100%;object-fit:contain;display:block;margin:2rem auto}
+.reader .lede{font-size:clamp(1.15rem,2vw,1.6rem);margin:1.5rem 0}
+.original iframe{display:block;width:100%;height:78vh;border:0;margin:1rem 0;background:white}
+.spread video{display:block;max-width:100%;max-height:70vh;margin-top:1.2rem}
+@media(max-width:680px){
+ .sub .inner{padding:2.6rem 6vw 3rem}.intro p{width:auto}.card img{aspect-ratio:1.25}
+ .work-options a{width:10.5rem;height:3rem;font-size:2.15rem;border-radius:.55rem}
+ .journal-grid,.offers{grid-template-columns:1fr;gap:2.5rem}.base{display:grid}
+ .filters{align-items:stretch}.filters label{width:100%}.sub .reader{padding-inline:5vw}
+ .scene:not(.sub) .pattern,.scene:not(.sub) .panel,.scene:not(.sub) .seal,.work-options{transform:translateY(-8.8rem)}
+ .scene:not(.sub) .work-options{transform:none}
+ .home .stage,.person .stage{overflow:visible}
+}
+@media(max-width:680px){.work .work-options{top:35vw}.person .stage .pattern{inset:0;transform:none}}

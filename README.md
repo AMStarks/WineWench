@@ -1,13 +1,15 @@
 # Wine Wench · Alana Kaye
 
-Open index.html to view the responsive site. The four website compositions in the supplied styleboard map to Home, Work, Person and Editorial. The tall first sheet is the brand board. Original artwork and reference compositions are in assets/. Text, navigation, cards and buttons are HTML. The desktop layout follows the mockup dimensions. Small screens reflow for reading and touch. All static assets and fonts are local. No installation or build is required.
+A responsive static website and a native Finitor SiteSpec. Open the root with a static web server, for example `python3 -m http.server 8000`. The standalone version uses the supplied styleboard’s monogram, original photography, seal, palette and embedded letterforms.
 
-## Finitor
+## Content and browsing
 
-Bind AMStarks/WineWench to the website-only project and import the full Git commit SHA. The Studio import reads deployer/site.json. The manifest defines Home, The person, The work and Editorial as separate pages. The native navigation follows the draft route. Work buttons link to the on-page contact section. The native layout retains the original photography and artwork. It uses Finitor’s navigation, fonts, buttons and responsive columns. The standalone HTML has the four precisely composed pages. Finitor does not execute those files during native import.
+Home, The person, The work, Editorial and Contact lead to the November 2026 inventory of the source site. The 26 editorial entries include local cover images, dates, introductory copy, category filtering and individual reading pages. The reader loads the original article on demand with a separate direct link. The Wix origin serves full articles, enquiries, newsletter subscriptions and booking availability. Keep that origin online while using those integrations. The standalone site includes directory-index aliases for the previous page and category paths. The Thirsty Hungry video uses the original media service.
 
-The native draft expects publicly readable HTTPS image URLs. Its default URLs point to this repository at the asset commit. If this repository is private, host the assets directory on your designated public media origin and run the following before importing the resulting commit. A private GitHub read token lets Finitor read the manifest, but a visitor’s browser still needs access to the images.
+## Editing
 
-    python3 scripts/finitor.py https://your-media-host.example/wine-wench/assets
+Edit `content/site.json` for services, contact and biography, and `content/journal.json` for stories. Run `python3 scripts/build.py` to generate the static pages. Images live under `assets/`. The Finitor generator takes a publicly readable, immutable HTTPS assets directory, including its journal/ subdirectory:
 
-No final biography, contact destination or full articles were supplied. The mockup copy and article excerpts are retained. Contact and work controls open informational previews. Article controls open an excerpt. Replace these in the relevant HTML and native draft for launch.
+    python3 scripts/finitor.py https://raw.githubusercontent.com/AMStarks/WineWench/ASSET_COMMIT/assets
+
+Bind AMStarks/WineWench in the target site's connections, then import the full GitHub commit SHA. Finitor imports deployer/site.json and uses native navigation, cards, category anchors, video and outbound links. CSS, JavaScript search and embedded Wix readers belong to the standalone build. Finitor links to full articles directly. Review the draft in Studio before publishing.
